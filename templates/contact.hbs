@@ -1,21 +1,10 @@
-<div class="container">
-  <nav class="navbar navbar-default">
-    <ul class="nav navbar-nav">
-      <li>{{#link-to 'posts'}}Posts{{/link-to}}</li>
-      <li>{{#link-to 'about'}}About{{/link-to}}</li>
-      <li>{{#link-to 'contact'}}Contact{{/link-to}}</li>
-    </ul>
-  </nav>
-  <h1>Contact</h1>
-  <div class="row">
-    <div class="col-xs-6">
-      <p>{{#link-to 'phone'}}Phone{{/link-to}}</p>
-      <p>{{#link-to 'email'}}Email{{/link-to}}</p>
-    </div>
-    <div class="col-xs-6">
-      {{outlet}}
-    </div>
+<h1>Contact</h1>
+<div class="row">
+  <div class="col-xs-6">
+    <p>{{#link-to 'phone'}}Phone{{/link-to}}</p>
+    <p>{{#link-to 'email'}}Email{{/link-to}}</p>
   </div>
-
-
+  <div class="col-xs-6">
+    {{outlet}}
+  </div>
 </div>

@@ -7,8 +7,15 @@
     </ul>
   </nav>
   <h1>Contact</h1>
+  <div class="row">
+    <div class="col-xs-6">
+      <p>{{#link-to 'phone'}}Phone{{/link-to}}</p>
+      <p>{{#link-to 'email'}}Email{{/link-to}}</p>
+    </div>
+    <div class="col-xs-6">
+      {{outlet}}
+    </div>
+  </div>
 
-  <p>Phone</p>
-  <p>Email</p>
 
 </div>
